@@ -1,16 +1,3 @@
-## Data 100 Spring 2022 website
+## Data 100 Spring 2022
 
-Public facing repo for Data 100, Spring 2022
-
-Note to staff: **Always** pull changes before making any edits. Merge conflicts (even those resolved automatically) can break things on the Datahub side.
-
-The `main` branch is used for Datahub. To edit ds100.org github pages (Syllabus, etc.), switch to the `gh-pages` branch. Some common commands:
-
-```
-git branch -a         # see all local and remote branches
-
-git checkout gh-pages                # if branch exists locally, or
-git checkout --track origin/gh-pages # if branch exists remotely
-...                   # edit, commit
-git push              # pushes local branch to remote branch
-```
+Fork of UC Berkeley's Data 100 class from spring 2022. The material is very similar to my Purdue master's data science courses, but we used R vice Python. My current team uses Python exclusively.  Thus, in the spirit of teamwork, I'm auditing this Python data science class to develop in the team's majority language.
